@@ -1,0 +1,233 @@
+{
+  "id": "9ce4937c-3256-4065-9f2c-3ad680ebafce",
+  "version": "2.0",
+  "name": "devops_project",
+  "url": "http://localhost:3500/devops_proj/",
+  "tests": [{
+    "id": "bf364a20-f0c0-4c1f-b1f6-2de7a62d509a",
+    "name": "check 2016 Preetham",
+    "commands": [{
+      "id": "4e9e6b61-c7a1-4a21-9eae-27848613cd91",
+      "comment": "",
+      "command": "open",
+      "target": "/devops_proj/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9aa825de-0b51-409b-a0c9-13c24f4b777a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e3ef598-48d4-4e21-9d46-efbe389808a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cf55c37-eb05-46d1-a2b3-e524ff8bdb84",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "d6d96d2b-1155-4597-a7f1-f634cc5aa697",
+      "comment": "",
+      "command": "click",
+      "target": "name=number",
+      "targets": [
+        ["name=number", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='number']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aceb3c8-ee5b-400b-a765-61ea9cfb6a2d",
+      "comment": "",
+      "command": "type",
+      "target": "name=number",
+      "targets": [
+        ["name=number", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='number']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "c983e03c-9714-44c7-b108-0cd0057334ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd30744a-0b11-4500-baf0-1e77d09c683d",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'© 2016 Preetham')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "414f2135-7d21-4b05-9cd6-1e2559b91f25",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'© 2016 Preetham')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "010e1fdf-9018-40ad-91ee-a35accb2775f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'© 2016 Preetham')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f949239e-1e0c-4e9c-beb7-77b8e7b051c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'© 2016 Preetham')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afa9169f-dd8f-49c1-94cb-d5174e86aa0a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=p",
+      "targets": [],
+      "value": "© 2016 Preetham\\n\\n"
+    }]
+  }, {
+    "id": "47c3c1bd-4718-4754-b65a-f006936f9fe6",
+    "name": "Welcome 5 exist",
+    "commands": [{
+      "id": "a331c451-ea21-4bd9-b9b0-982ef926188e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3500/devops_proj/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bc6a624-7fc7-4705-8afd-2ef53c5d2bae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6c7cf84-09ba-443e-b8a8-b1066c997758",
+      "comment": "",
+      "command": "click",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07f57485-53cd-4e83-93c4-1bbd3990952f",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "67751d5c-cd28-46e8-80a5-7d3a2003928c",
+      "comment": "",
+      "command": "click",
+      "target": "name=number",
+      "targets": [
+        ["name=number", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='number']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21ba6b26-d3af-42c4-b862-2d6cdfc30729",
+      "comment": "",
+      "command": "type",
+      "target": "name=number",
+      "targets": [
+        ["name=number", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='number']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "11cf51c8-4543-4177-92c7-6c37b871189f",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2af868cb-dd1a-42e6-ad55-96c8158e652f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Welcome 5')]", "xpath:innerText"]
+      ],
+      "value": "Welcome 5"
+    }]
+  }],
+  "suites": [{
+    "id": "e0be7802-dc80-434c-9cdd-e6e303555b56",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bf364a20-f0c0-4c1f-b1f6-2de7a62d509a"]
+  }],
+  "urls": ["http://localhost:3500/", "http://localhost:3500/devops_proj/"],
+  "plugins": []
+}
