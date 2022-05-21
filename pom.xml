@@ -19,36 +19,12 @@
       <artifactId>javax.servlet-api</artifactId>
       <version>${servlet.version}</version>
     </dependency>
-  <dependency>
-    <groupId>io.gatling.highcharts</groupId>
-    <artifactId>gatling-charts-highcharts</artifactId>
-    <version>3.3.1</version>
-</dependency>
-<dependency>
-    <groupId>io.gatling</groupId>
-    <artifactId>gatling-app</artifactId>
-    <version>3.3.1</version>
-</dependency>
-<dependency>
-    <groupId>io.gatling</groupId>
-    <artifactId>gatling-recorder</artifactId>
-    <version>3.3.1</version>
-</dependency>
       </dependencies>
   
   
   <build>
     <finalName>JSPSample</finalName>
     <plugins>
-      <plugin>
-        <plugin>
-    <groupId>io.gatling</groupId>
-    <artifactId>gatling-maven-plugin</artifactId>
-    <version>3.0.5</version>
-    <configuration>
-        <simulationClass>org.baeldung.${SimulationClass}</simulationClass>
-    </configuration>
-</plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${maven.compiler.plugin.version}</version>
